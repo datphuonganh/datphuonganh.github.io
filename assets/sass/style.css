@@ -184,18 +184,18 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 70px 0;
 }
 
 @media (max-width: 991px) {
   .section-padding {
-    padding: 90px 0;
+    padding: 60px 0;
   }
 }
 
 @media (max-width: 767px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 20px 0;
   }
 }
 
@@ -4082,16 +4082,16 @@ img {
   }
 }
 
-.static-hero .wpo-wedding-date #clock,
-.static-hero-s2 .wpo-wedding-date #clock {
+.static-hero .wpo-wedding-date #clock_custom,
+.static-hero-s2 .wpo-wedding-date #clock_custom {
   overflow: hidden;
   margin-top: 20px;
   margin-left: -30px;
 }
 
 @media (max-width: 991px) {
-  .static-hero .wpo-wedding-date #clock,
-  .static-hero-s2 .wpo-wedding-date #clock {
+  .static-hero .wpo-wedding-date #clock_custom,
+  .static-hero-s2 .wpo-wedding-date #clock_custom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4105,14 +4105,14 @@ img {
 }
 
 @media (max-width: 530px) {
-  .static-hero .wpo-wedding-date #clock,
-  .static-hero-s2 .wpo-wedding-date #clock {
+  .static-hero .wpo-wedding-date #clock_custom,
+  .static-hero-s2 .wpo-wedding-date #clock_custom {
     margin-top: 0;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .box,
-.static-hero-s2 .wpo-wedding-date #clock .box {
+.static-hero .wpo-wedding-date #clock_custom .box,
+.static-hero-s2 .wpo-wedding-date #clock_custom .box {
   width: 170px;
   height: 170px;
   position: relative;
@@ -4120,15 +4120,15 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box,
-  .static-hero-s2 .wpo-wedding-date #clock .box {
+  .static-hero .wpo-wedding-date #clock_custom .box,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box {
     width: 140px;
     height: 140px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .box:before,
-.static-hero-s2 .wpo-wedding-date #clock .box:before {
+.static-hero .wpo-wedding-date #clock_custom .box:before,
+.static-hero-s2 .wpo-wedding-date #clock_custom .box:before {
   position: absolute;
   left: -10px;
   top: 0;
@@ -4140,8 +4140,8 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box:before,
-  .static-hero-s2 .wpo-wedding-date #clock .box:before {
+  .static-hero .wpo-wedding-date #clock_custom .box:before,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box:before {
     left: -10px;
     top: 0;
     background-size: cover;
@@ -4149,22 +4149,22 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box:first-child,
-  .static-hero-s2 .wpo-wedding-date #clock .box:first-child {
+  .static-hero .wpo-wedding-date #clock_custom .box:first-child,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box:first-child {
     width: 150px;
     height: 150px;
   }
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box:first-child:before,
-  .static-hero-s2 .wpo-wedding-date #clock .box:first-child:before {
+  .static-hero .wpo-wedding-date #clock_custom .box:first-child:before,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box:first-child:before {
     width: 160px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .box:nth-child(2):before,
-.static-hero-s2 .wpo-wedding-date #clock .box:nth-child(2):before {
+.static-hero .wpo-wedding-date #clock_custom .box:nth-child(2):before,
+.static-hero-s2 .wpo-wedding-date #clock_custom .box:nth-child(2):before {
   left: 3px;
   top: 10px;
   background: url(../images/slider/countdown/bg-2.svg) no-repeat center center;
@@ -4172,15 +4172,15 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box:nth-child(2):before,
-  .static-hero-s2 .wpo-wedding-date #clock .box:nth-child(2):before {
+  .static-hero .wpo-wedding-date #clock_custom .box:nth-child(2):before,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box:nth-child(2):before {
     left: 0;
     top: 10px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .box:nth-child(3):before,
-.static-hero-s2 .wpo-wedding-date #clock .box:nth-child(3):before {
+.static-hero .wpo-wedding-date #clock_custom .box:nth-child(3):before,
+.static-hero-s2 .wpo-wedding-date #clock_custom .box:nth-child(3):before {
   left: 15px;
   top: -8px;
   background: url(../images/slider/countdown/bg-3.svg) no-repeat center center;
@@ -4188,15 +4188,15 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box:nth-child(3):before,
-  .static-hero-s2 .wpo-wedding-date #clock .box:nth-child(3):before {
+  .static-hero .wpo-wedding-date #clock_custom .box:nth-child(3):before,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box:nth-child(3):before {
     left: 10px;
     top: -10px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .box:nth-child(4):before,
-.static-hero-s2 .wpo-wedding-date #clock .box:nth-child(4):before {
+.static-hero .wpo-wedding-date #clock_custom .box:nth-child(4):before,
+.static-hero-s2 .wpo-wedding-date #clock_custom .box:nth-child(4):before {
   left: -12px;
   top: -12px;
   background: url(../images/slider/countdown/bg-4.svg) no-repeat center center;
@@ -4204,53 +4204,53 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .box:nth-child(4):before,
-  .static-hero-s2 .wpo-wedding-date #clock .box:nth-child(4):before {
+  .static-hero .wpo-wedding-date #clock_custom .box:nth-child(4):before,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .box:nth-child(4):before {
     left: -10px;
     top: -10px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock > div,
-.static-hero-s2 .wpo-wedding-date #clock > div {
+.static-hero .wpo-wedding-date #clock_custom > div,
+.static-hero-s2 .wpo-wedding-date #clock_custom > div {
   float: left;
   display: table;
 }
 
-.static-hero .wpo-wedding-date #clock > div > div,
-.static-hero-s2 .wpo-wedding-date #clock > div > div {
+.static-hero .wpo-wedding-date #clock_custom > div > div,
+.static-hero-s2 .wpo-wedding-date #clock_custom > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.static-hero .wpo-wedding-date #clock > div + div,
-.static-hero-s2 .wpo-wedding-date #clock > div + div {
+.static-hero .wpo-wedding-date #clock_custom > div + div,
+.static-hero-s2 .wpo-wedding-date #clock_custom > div + div {
   margin-left: 30px;
 }
 
 @media (max-width: 1500px) {
-  .static-hero .wpo-wedding-date #clock > div + div,
-  .static-hero-s2 .wpo-wedding-date #clock > div + div {
+  .static-hero .wpo-wedding-date #clock_custom > div + div,
+  .static-hero-s2 .wpo-wedding-date #clock_custom > div + div {
     margin-left: 20px;
   }
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock > div + div,
-  .static-hero-s2 .wpo-wedding-date #clock > div + div {
+  .static-hero .wpo-wedding-date #clock_custom > div + div,
+  .static-hero-s2 .wpo-wedding-date #clock_custom > div + div {
     margin-left: 15px;
   }
 }
 
 @media (max-width: 1300px) {
-  .static-hero .wpo-wedding-date #clock > div + div,
-  .static-hero-s2 .wpo-wedding-date #clock > div + div {
+  .static-hero .wpo-wedding-date #clock_custom > div + div,
+  .static-hero-s2 .wpo-wedding-date #clock_custom > div + div {
     margin-left: 0px;
   }
 }
 
-.static-hero .wpo-wedding-date #clock .time,
-.static-hero-s2 .wpo-wedding-date #clock .time {
+.static-hero .wpo-wedding-date #clock_custom .time,
+.static-hero-s2 .wpo-wedding-date #clock_custom .time {
   font-family: "Donalia";
   font-weight: 400;
   font-size: 40px;
@@ -4260,23 +4260,23 @@ img {
 }
 
 @media (max-width: 1400px) {
-  .static-hero .wpo-wedding-date #clock .time,
-  .static-hero-s2 .wpo-wedding-date #clock .time {
+  .static-hero .wpo-wedding-date #clock_custom .time,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .time {
     font-size: 30px;
     font-size: 2rem;
   }
 }
 
 @media (max-width: 1100px) {
-  .static-hero .wpo-wedding-date #clock .time,
-  .static-hero-s2 .wpo-wedding-date #clock .time {
+  .static-hero .wpo-wedding-date #clock_custom .time,
+  .static-hero-s2 .wpo-wedding-date #clock_custom .time {
     font-size: 30px;
     font-size: 2rem;
   }
 }
 
-.static-hero .wpo-wedding-date #clock span,
-.static-hero-s2 .wpo-wedding-date #clock span {
+.static-hero .wpo-wedding-date #clock_custom span,
+.static-hero-s2 .wpo-wedding-date #clock_custom span {
   color: #4D4D4D;
   font-weight: 500;
   font-size: 18px;
@@ -4284,8 +4284,8 @@ img {
 }
 
 @media (max-width: 991px) {
-  .static-hero .wpo-wedding-date #clock span,
-  .static-hero-s2 .wpo-wedding-date #clock span {
+  .static-hero .wpo-wedding-date #clock_custom span,
+  .static-hero-s2 .wpo-wedding-date #clock_custom span {
     font-size: 16px;
   }
 }
@@ -4743,15 +4743,15 @@ img {
   }
 }
 
-.wpo-hero-style-3 .wpo-wedding-date #clock,
-.wpo-hero-style-4 .wpo-wedding-date #clock {
+.wpo-hero-style-3 .wpo-wedding-date #clock_custom,
+.wpo-hero-style-4 .wpo-wedding-date #clock_custom {
   text-align: center;
   display: inline-block;
 }
 
 @media (max-width: 700px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock,
-  .wpo-hero-style-4 .wpo-wedding-date #clock {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4763,13 +4763,13 @@ img {
   }
 }
 
-.wpo-hero-style-3 .wpo-wedding-date #clock .box > div,
-.wpo-hero-style-4 .wpo-wedding-date #clock .box > div {
+.wpo-hero-style-3 .wpo-wedding-date #clock_custom .box > div,
+.wpo-hero-style-4 .wpo-wedding-date #clock_custom .box > div {
   margin-left: -20px;
 }
 
-.wpo-hero-style-3 .wpo-wedding-date #clock > div,
-.wpo-hero-style-4 .wpo-wedding-date #clock > div {
+.wpo-hero-style-3 .wpo-wedding-date #clock_custom > div,
+.wpo-hero-style-4 .wpo-wedding-date #clock_custom > div {
   width: 150px;
   height: 137px;
   background: url("../images/slider/clock-bg.png") center center/cover no-repeat local;
@@ -4778,42 +4778,42 @@ img {
 }
 
 @media (max-width: 1199px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock > div,
-  .wpo-hero-style-4 .wpo-wedding-date #clock > div {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom > div,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom > div {
     width: 120px;
     height: 110px;
   }
 }
 
 @media (max-width: 767px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock > div:last-child,
-  .wpo-hero-style-4 .wpo-wedding-date #clock > div:last-child {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom > div:last-child,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom > div:last-child {
     right: 0;
   }
 }
 
-.wpo-hero-style-3 .wpo-wedding-date #clock div + div,
-.wpo-hero-style-4 .wpo-wedding-date #clock div + div {
+.wpo-hero-style-3 .wpo-wedding-date #clock_custom div + div,
+.wpo-hero-style-4 .wpo-wedding-date #clock_custom div + div {
   margin-left: 30px;
 }
 
 @media (max-width: 1399px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock div + div,
-  .wpo-hero-style-4 .wpo-wedding-date #clock div + div {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom div + div,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom div + div {
     margin-left: 20px;
   }
 }
 
 @media (max-width: 575px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock div + div,
-  .wpo-hero-style-4 .wpo-wedding-date #clock div + div {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom div + div,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom div + div {
     margin-left: 8px;
     margin-bottom: 10px;
   }
 }
 
-.wpo-hero-style-3 .wpo-wedding-date #clock .time,
-.wpo-hero-style-4 .wpo-wedding-date #clock .time {
+.wpo-hero-style-3 .wpo-wedding-date #clock_custom .time,
+.wpo-hero-style-4 .wpo-wedding-date #clock_custom .time {
   font-family: "Donalia";
   font-weight: 400;
   font-size: 40px;
@@ -4824,30 +4824,30 @@ img {
 }
 
 @media (max-width: 1199px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock .time,
-  .wpo-hero-style-4 .wpo-wedding-date #clock .time {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom .time,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom .time {
     margin-top: 20px;
   }
 }
 
 @media (max-width: 1400px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock .time,
-  .wpo-hero-style-4 .wpo-wedding-date #clock .time {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom .time,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom .time {
     font-size: 30px;
     font-size: 2rem;
   }
 }
 
 @media (max-width: 1100px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock .time,
-  .wpo-hero-style-4 .wpo-wedding-date #clock .time {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom .time,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom .time {
     font-size: 30px;
     font-size: 2rem;
   }
 }
 
-.wpo-hero-style-3 .wpo-wedding-date #clock span,
-.wpo-hero-style-4 .wpo-wedding-date #clock span {
+.wpo-hero-style-3 .wpo-wedding-date #clock_custom span,
+.wpo-hero-style-4 .wpo-wedding-date #clock_custom span {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
@@ -4855,8 +4855,8 @@ img {
 }
 
 @media (max-width: 991px) {
-  .wpo-hero-style-3 .wpo-wedding-date #clock span,
-  .wpo-hero-style-4 .wpo-wedding-date #clock span {
+  .wpo-hero-style-3 .wpo-wedding-date #clock_custom span,
+  .wpo-hero-style-4 .wpo-wedding-date #clock_custom span {
     font-size: 16px;
   }
 }
@@ -5134,7 +5134,7 @@ img {
 4. wpo-footer
 --------------------------------------------------------------*/
 .wpo-site-footer {
-  background: #fbf8f8;
+  background: #838080;
   position: relative;
   font-size: 15px;
   overflow: hidden;
@@ -5555,7 +5555,7 @@ img {
 @media (max-width: 991px) {
   .couple-section,
   .couple-section-s2 {
-    padding-bottom: 30px;
+    padding-bottom: 0;
   }
 }
 
@@ -5921,12 +5921,12 @@ img {
 }
 
 .story-section .story-timeline .story-timeline-item {
-  padding-top: 270px;
+  padding-top: 125px;
 }
 
 @media (max-width: 991px) {
   .story-section .story-timeline .story-timeline-item {
-    padding-top: 50px;
+    padding-top: 0;
     text-align: center;
   }
 }
@@ -6557,7 +6557,7 @@ img {
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area,
 .wpo-contact-section-s2 .wpo-contact-section-wrapper .wpo-contact-form-area {
-  padding: 130px 50px;
+  padding: 80px 50px;
   position: relative;
   z-index: 99;
   border-radius: 322px;
@@ -7952,44 +7952,44 @@ img {
   }
 }
 
-.coming-soon-section .wpo-wedding-date #clock {
+.coming-soon-section .wpo-wedding-date #clock_custom {
   overflow: hidden;
   margin-top: 20px;
 }
 
 @media (max-width: 530px) {
-  .coming-soon-section .wpo-wedding-date #clock {
+  .coming-soon-section .wpo-wedding-date #clock_custom {
     margin-top: 0;
   }
 }
 
-.coming-soon-section .wpo-wedding-date #clock > div {
+.coming-soon-section .wpo-wedding-date #clock_custom > div {
   float: left;
   display: table;
 }
 
-.coming-soon-section .wpo-wedding-date #clock > div > div {
+.coming-soon-section .wpo-wedding-date #clock_custom > div > div {
   display: table-cell;
   vertical-align: middle;
 }
 
-.coming-soon-section .wpo-wedding-date #clock > div + div {
+.coming-soon-section .wpo-wedding-date #clock_custom > div + div {
   margin-left: 50px;
 }
 
 @media (max-width: 991px) {
-  .coming-soon-section .wpo-wedding-date #clock > div + div {
+  .coming-soon-section .wpo-wedding-date #clock_custom > div + div {
     margin-left: 20px;
   }
 }
 
 @media (max-width: 767px) {
-  .coming-soon-section .wpo-wedding-date #clock > div + div {
+  .coming-soon-section .wpo-wedding-date #clock_custom > div + div {
     margin-left: 10px;
   }
 }
 
-.coming-soon-section .wpo-wedding-date #clock .time {
+.coming-soon-section .wpo-wedding-date #clock_custom .time {
   font-family: "Donalia";
   font-size: 60px;
   font-size: 4rem;
@@ -7999,26 +7999,26 @@ img {
 }
 
 @media (max-width: 1300px) {
-  .coming-soon-section .wpo-wedding-date #clock .time {
+  .coming-soon-section .wpo-wedding-date #clock_custom .time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
 @media (max-width: 767px) {
-  .coming-soon-section .wpo-wedding-date #clock .time {
+  .coming-soon-section .wpo-wedding-date #clock_custom .time {
     font-size: 40px;
     font-size: 2.66667rem;
   }
 }
 
-.coming-soon-section .wpo-wedding-date #clock span {
+.coming-soon-section .wpo-wedding-date #clock_custom span {
   color: #585858;
   font-size: 25px;
 }
 
 @media (max-width: 991px) {
-  .coming-soon-section .wpo-wedding-date #clock span {
+  .coming-soon-section .wpo-wedding-date #clock_custom span {
     font-size: 20px;
   }
 }
@@ -11769,5 +11769,9 @@ img {
   .color9 .wpo-site-header #navbar ul li a:hover, .color9 .color5 .wpo-site-header #navbar ul li a:focus {
     color: #fff;
   }
+}
+
+.thank_you {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
