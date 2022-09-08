@@ -111,12 +111,14 @@
             <div class="wedding-announcement">
                 <div class="couple-text">
                     <h2 class="wow slideInUp" data-wow-duration="1s">Phương Anh & Văn Đạt</h2>
-                    <p class="wow slideInUp" data-wow-duration="1.8s">
-                        <!-- Chúng mình sẽ kết hôn vào ngày 11-9-2022 -->
+                    <p id="getting_married" class="wow slideInUp" data-wow-duration="1s">
                         We Are Getting Married Sep 11, 2022
                     </p>
+                    <p id="got_married" class="wow slideInUp" data-wow-duration="0.3s">
+                        We Got Married. Marriage Date Is Sep 11, 2022
+                    </p>
                     <!-- start wpo-wedding-date -->
-                    <div class="wpo-wedding-date wow slideInUp" data-wow-duration="2.1s">
+                    <div id="block_time" class="wpo-wedding-date wow slideInUp" data-wow-duration="0.5s">
                         <div class="clock-grids">
                             <div id="clock_custom">
                                 <div class="box">
@@ -543,17 +545,24 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById('block_time').style.display ='none';
+                document.getElementById('getting_married').style.display ='none';
+                document.getElementById('got_married').style.display ='block';
+            } else {
+                document.getElementById('block_time').style.display ='block';
+                document.getElementById('getting_married').style.display ='block';
+                document.getElementById('got_married').style.display ='none';
+            }
+
             // Display the result in the element with id="demo"
             document.getElementById("days").innerHTML = days;
             document.getElementById("hours").innerHTML = hours;
             document.getElementById("mins").innerHTML = minutes;
             document.getElementById("secs").innerHTML = seconds;
-
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-            }
+            
         }, 1000);
 
         function show1() {

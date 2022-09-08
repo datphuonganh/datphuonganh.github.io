@@ -11774,4 +11774,14 @@ img {
 .thank_you {
   text-align: center;
 }
+#getting_married {
+  display: none;
+}
+#got_married {
+  display: none;
+}
+#block_time {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
